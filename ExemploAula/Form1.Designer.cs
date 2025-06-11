@@ -34,9 +34,10 @@
             // lbllogin
             // 
             lbllogin.AutoSize = true;
-            lbllogin.Location = new Point(343, 66);
+            lbllogin.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbllogin.Location = new Point(324, 50);
             lbllogin.Name = "lbllogin";
-            lbllogin.Size = new Size(37, 15);
+            lbllogin.Size = new Size(104, 45);
             lbllogin.TabIndex = 0;
             lbllogin.Text = "Login";
             lbllogin.Click += lbllogin_Click;
